@@ -9,6 +9,10 @@ git commands:
 *git add package.json or git add . (the earlier is to add the particular file and the later is to add all the files)
 *git commit -a -m "your_message" (for commiting your files)
 *git push origin master (to push the changes to your branch)
+*gitk (to open the gitk window)
+*gitk -a (to show all the branches in the gitk window)
+*git checkout -b branch_name (to create a new branch)
+*git push origin branch_name(to push the newly created branch)
 
 $ git config --global user.name "name"
 $ git config --global user.email "email"
