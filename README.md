@@ -1,6 +1,6 @@
 # React-Express-FullStack
 
-npm init -y
+- npm init -y
 
 git commands:
 
