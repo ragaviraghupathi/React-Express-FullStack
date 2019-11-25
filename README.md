@@ -1,8 +1,8 @@
 # React-Express-FullStack
 
-npm init -y (to apply default values)
+- npm init -y (to apply default values)
 
-git commands:
+# git commands:
 
 - code . (to open code in visual studio, go to the path and enter this command)
 
