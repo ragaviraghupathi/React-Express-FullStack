@@ -13,6 +13,7 @@
 
 # to push the changes from local to github
 
+- git init (to create the local repository)
 - git status
 - git add package.json or git add . (the earlier is to add the particular file and the later is to add all the files)
 - git commit -a -m "your_message" (for commiting your files)
