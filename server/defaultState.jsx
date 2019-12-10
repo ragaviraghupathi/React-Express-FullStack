@@ -3,13 +3,11 @@ export const defaultState = {
     {
       id: "U1",
       name: "Dev",
-
       friends: [`U2`]
     },
     {
       id: "U2",
       name: "C. Eeyo",
-
       friends: []
     }
   ],
