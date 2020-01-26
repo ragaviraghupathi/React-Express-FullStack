@@ -5,13 +5,13 @@ export const Dashboard = ({ groups }) => (
   <div>
     <h2>Dashboard</h2>
     {groups.map(group => (
-      <ConnectedTaskList name={group.name} id={group.id} />
+      <ConnectedTaskList key={group.id} name={group.name} id={group.id} />
     ))}
   </div>
 );
 function mapStateToProps(state) {
   return {
-    groups: state.groups
+    groups: state.groupsReducer
   };
 }
 export const ConnectedDashboard = connect(mapStateToProps)(Dashboard);
