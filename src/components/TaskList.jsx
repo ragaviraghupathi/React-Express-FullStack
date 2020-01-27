@@ -1,11 +1,14 @@
 import React from "react";
 import { connect } from "react-redux";
 import { requestTaskCreation } from "../actions/requestTaskCreation";
+import { Link } from "react-router-dom";
 export const TaskList = ({ tasks, name, id, requestTaskCreation }) => (
   <div>
     <h3>{name}</h3>
     {tasks.map(task => (
-      <div key={task.id}>{task.name}</div>
+      <Link to={`/task/${task.id}`}>
+        <div key={task.id}>{task.name}</div>
+      </Link>
     ))}
     <button onClick={() => requestTaskCreation(id)}>Add new task </button>
   </div>
